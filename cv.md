@@ -1,5 +1,5 @@
 ## Vital Zybailo
-----
+--
 ### Contact info
 ### About me
 ### Skills
