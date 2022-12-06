@@ -1,6 +1,6 @@
 ## Vital Zybailo
 ### Contact info
-* **Gihub:** [https://github.com/vzybailo](vzybailo)
+* **Github:** @vzybailo
 * **Phone:** +375 33 682-88-33
 * **Email:** vental@bk.ru
 * **Location:** Minsk
