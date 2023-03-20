@@ -34,6 +34,6 @@ function sliderPlugin (activeSlide = 0) {
 }
 
 sliderPlugin (2)
-``` 
+```
 ### Languages
 * **English (B2)** in process
