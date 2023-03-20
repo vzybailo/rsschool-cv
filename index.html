@@ -5,7 +5,251 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It is my CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <ul class="contacts__list">
+                    <li class="contacts_item">
+                        <a href="https://github.com/vzybailo" target="_blank" class="contacts__link">
+                            <img src="img/github.png" alt="github" class="contacts__img">
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="https://www.linkedin.com/in/zybailo/" target="_blank" class="contacts__link">
+                            <img src="img/linkedin.png" alt="linkedin" class="contacts__img">
+                        </a>
+                    </li>
+                </ul>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About me</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#exp" class="nav__link">Experience</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#edu" class="nav__link">Education</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#lang" class="nav__link">Education</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="hero">
+                <h2 class="hero__title">Hi! I`m Vitali</h2>
+                <h1 class="hero_subtitle">Front-End Developer</h1>
+                <a href="files/Vitali-Zybailo.pdf" download target="_blank" class="projects__btn hero__btn">Download CV</a>
+            </section>
+            <section id="about" class="about">
+                <div class="about__photo">
+                    <img src="img/photo.jpg" alt="about" class="about__pic">
+                </div>
+                <div class="about__desc">
+                    <h2 class="about__name">Vitali<br> Zybaila</h2>
+                    <div class="about__text">"Since childhood, I have been interested in computers.
+                        As soon as I had it, I began to study its device. This was the main reason why I became a developer.
+                        But also I love photography, make leather goods and love to travel. Now I'm studying new libraries in JS.
+                        I also continue to study English, because it is necessary for work and travel.
+                        I'm glad you checked out my site. I will be glad to help you in creating your project. I like web development. I have experience in commercial product. I made an online store and landing
+                        page and other interesting products. I want to improve my level in JS and PHP. My main goal is become
+                        a full stack developer."</div>
+                    <div class="about__sign">
+                        <img src="img/sign.jpg" alt="" class="about__sign-pic">
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="skills">
+                <div class="skills_title">
+                    <div class="title-up">Why hire me</div>
+                    <h2 class="title-main">Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-list__item">
+                          <ul class="skills-row__list">
+                            <li class="item">
+                              <svg class="circles js-circle" viewBox="0 0 110 110">
+                                <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                                <circle class="circle__second js-circle__second" r="45" cx="50%" cy="50%" data-circle="85" transform="rotate(-90 55 55)" style="stroke-dasharray: 240.332, 282.6;"></circle>
+                              </svg><span class="item__title">HTML5</span>
+                            </li>
+                            <li class="item">
+                              <svg class="circles js-circle" viewBox="0 0 110 110">
+                                <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                                <circle class="circle__second js-circle__second" r="45" cx="50%" cy="50%" data-circle="75" transform="rotate(-90 55 55)" style="stroke-dasharray: 212.058, 282.6;"></circle>
+                              </svg><span class="item__title">CSS3</span>
+                            </li>
+                            <li class="item">
+                              <svg class="circles js-circle" viewBox="0 0 110 110">
+                                <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                                <circle class="circle__second js-circle__second" r="45" cx="50%" cy="50%" data-circle="55" transform="rotate(-90 55 55)" style="stroke-dasharray: 155.509, 282.6;"></circle>
+                              </svg><span class="item__title">JS</span>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="skills-list__item">
+                          <ul class="skills-row__list">
+                            <li class="item">
+                              <svg class="circles js-circle" viewBox="0 0 110 110">
+                                <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                                <circle class="circle__second js-circle__second" r="45" cx="50%" cy="50%" data-circle="80" transform="rotate(-90 55 55)" style="stroke-dasharray: 226.195, 282.6;"></circle>
+                              </svg><span class="item__title">Git</span>
+                            </li>
+                            <li class="item">
+                              <svg class="circles js-circle" viewBox="0 0 110 110">
+                                <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                                <circle class="circle__second js-circle__second" r="45" cx="50%" cy="50%" data-circle="60" transform="rotate(-90 55 55)" style="stroke-dasharray: 169.646, 282.6;"></circle>
+                              </svg><span class="item__title">Webpack</span>
+                            </li>
+                            <li class="item">
+                              <svg class="circles js-circle" viewBox="0 0 110 110">
+                                <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                                <circle class="circle__second js-circle__second" r="45" cx="50%" cy="50%" data-circle="80" transform="rotate(-90 55 55)" style="stroke-dasharray: 226.195, 282.6;"></circle>
+                              </svg><span class="item__title">BEM</span>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                </div>
+            </section>
+            <section id="projects" class="projects">
+                <div class="project__title">
+                    <div class="title-up">What I do</div>
+                    <h2 class="title-main">Projects</h2>
+                </div>
+                <ul class="projects__list">
+                    <li class="projects__item ">
+                        <img src="img/work1.jpg" alt="" class="projects__img">
+                        <div class="projects__content">
+                            <div class="projects__stack">HTML, CSS, JS, Webpack</div>
+                            <div class="prjects__title">Portfolio site</div>
+                            <a href="https://vzybailo.github.io/index.html" target="_blank" class="projects__btn">See project</a>
+                        </div>
+                    </li>
+                    <li class="projects__item">
+                        <img src="img/work2.jpg" alt="" class="projects__img">
+                        <div class="projects__content">
+                            <div class="projects__stack">HTML, CSS, JS, Webpack</div>
+                            <div class="prjects__title">Landing page</div>
+                            <a href="https://vzybailo.github.io/Mr-Burger/" target="_blank" class="projects__btn">See project</a>
+                        </div>
+                    </li>
+                    <li class="projects__item">
+                        <img src="img/work3.jpg" alt="" class="projects__img">
+                        <div class="projects__content">
+                            <div class="projects__stack">HTML, CSS</div>
+                            <div class="prjects__title">Corporative site</div>
+                            <a href="https://vzybailo.github.io/coworking/" target="_blank" class="projects__btn">See project</a>
+                        </div>
+                    </li>
+                    <li class="projects__item">
+                        <img src="img/work4.jpg" alt="" class="projects__img">
+                        <div class="projects__content">
+                            <div class="projects__stack">HTML, CSS, JS, Wordpress</div>
+                            <div class="prjects__title">Landing page</div>
+                            <a href="https://vzybailo.github.io/up-build/" target="_blank" class="projects__btn">See project</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="exp" class="exp">
+                <div class="exp__title">
+                    <div class="title-up">Where I worked</div>
+                    <h2 class="title-main">Experience</h2>
+                </div>
+                <ul class="exp__list">
+                    <li class="exp__item">
+                        <div class="exp__data">
+                            <div class="exp__time">09.2020 - 09.2021</div>
+                            <div class="exp__company">LTD “ByPro”</div>
+                        </div>
+                        <div class="exp__position">
+                            <div class="exp__title">WORDPRESS DEVELOPER</div>
+                            <ul class="exp__task">
+                                <li class="exp__task-item">website development</li>
+                                <li class="exp__task-item">deploy the site to a virtual hosting</li>
+                                <li class="exp__task-item">site recovery after hack</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="exp__item">
+                        <div class="exp__data">
+                            <div class="exp__time">09.2021 - 05.2022</div>
+                            <div class="exp__company">LTD “Zaochnik.com”</div>
+                        </div>
+                        <div class="exp__position">
+                            <div class="exp__title">WORDPRESS DEVELOPER</div>
+                            <ul class="exp__task">
+                                <li class="exp__task-item">Support and improvement of current company
+                                    websites</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="exp__item">
+                        <div class="exp__data">
+                            <div class="exp__time">09.2021 - current time</div>
+                            <div class="exp__company">MENTOR IN LOFTSCHOOL</div>
+                        </div>
+                        <div class="exp__position">
+                            <div class="exp__title">WORDPRESS DEVELOPER</div>
+                            <ul class="exp__task">
+                                <li class="exp__task-item">Check homework and host webinars</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="edu" class="education">
+                <div class="education__title">
+                    <div class="title-up">Where I gained my knowledge</div>
+                    <h2 class="title-main">Education and courses</h2>
+                </div>
+                <ul class="education__list">
+                    <li class="education__item">
+                        <div class="education__time">June, 2017 - February, 2018</div>
+                        <div class="education__program">Front-End Program</div>
+                        <div class="education__school">
+                            <a class="education__link" target="_blank" href="loftschool.com">Loftschool</a>
+                        </div>
+                    </li>
+                    <li class="education__item">
+                        <div class="education__time">August, 2022 - in progress</div>
+                        <div class="education__program">Vue.js</div>
+                        <div class="education__school">
+                            <a class="education__link" target="_blank" href="tocode.ru">ToCode</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="lang" class="lang">
+                <div class="lang__title">
+                    <div class="title-up">I can speak</div>
+                    <h2 class="title-main">Languages</h2>
+                </div>
+               <ul class="lang__list">
+                    <li class="lang__item">
+                        <div class="lang__title">English</div>
+                        <div class="lang__subtitle">B2</div>
+                        <progress id="eng" max="100" value="70" class="lang__progress">B2</progress>
+                    </li>
+                    <li class="lang__item">
+                        <div class="lang__title">Russian</div>
+                        <div class="lang__subtitle">native</div>
+                        <progress id="ru" max="100" value="100" class="lang__progress"></progress>
+                    </li>
+               </ul>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
