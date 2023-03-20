@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav__link {
     margin-right: 25px;
     color: #000;
-    font-size: 10px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .hamburger {
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about__text {
     font-family: serif;
-    font-size: 12px;
+    font-size: 14px;
     width: 80%;
     margin-bottom: 40px;
 }
@@ -257,10 +257,10 @@ img.about__sign-pic {
     color: #000;
     padding: 5px 10px;
     border: 1px solid #000;
-    font-size: 10px;
+    font-size: 16px;
 }
 .projects__stack {
-    font-size: 10px;
+    font-size: 14px;
     margin-bottom: 5px;
 }
 .prjects__title {
@@ -270,7 +270,7 @@ img.about__sign-pic {
     color: #000;
     padding: 5px 10px;
     border: 1px solid #000;
-    font-size: 10px;
+    font-size: 16px;
 }
 .projects__btn:hover {
     color: #fff;
@@ -289,7 +289,7 @@ img.about__sign-pic {
     width: 40%;
 }
 .exp__time {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 .exp__company {
@@ -300,7 +300,7 @@ img.about__sign-pic {
     margin-bottom: 10px;
 }
 .exp__task {
-    font-size: 12px;
+    font-size: 14px;
     font-family: serif;
     list-style: circle;
 }
@@ -314,13 +314,13 @@ img.about__sign-pic {
     margin-bottom: 20px;
 }
 .education__time {
-    font-size: 12px;
+    font-size: 14px;
 }
 .education__program {
     font-weight: 600;
 }
 a.education__link {
-    font-size: 12px;
+    font-size: 14px;
     color: #000;
     text-decoration: underline;
 }
@@ -341,7 +341,7 @@ a.education__link {
     border-radius: 0;
 }
 .lang__subtitle {
-    font-size: 12px;
+    font-size: 14px;
     color: #ccc;
     margin-bottom: 10px;
 }
